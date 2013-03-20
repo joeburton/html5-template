@@ -58,8 +58,6 @@ var mapStuff = {
 };
 
 mapStuff.details();
-/*
-*/
 
 
 /*
@@ -87,6 +85,7 @@ chocolateBar.price = "20";
 console.log(chocolateBar.toString());
 */
 
+
 /*
 Object literal pattern
 
@@ -106,6 +105,8 @@ var chocolate = {
 chocolate.returnDetails();
 */
 
+
+/*
 function Numbers () {
 
 	this.o = {
@@ -129,6 +130,8 @@ var myNumbers = new Numbers();
 var someText = myNumbers.item();
 
 console.log("text: ", someText, myNumbers, myNumbers.item);
+*/
+
 
 var o = {
 	first: "first",
@@ -154,7 +157,7 @@ for (name in o) {
 	
 }
 
-console.log("Object: ", Object.clone);
+//console.log("Object: ", Object.clone);
 
 
 
