@@ -11,7 +11,6 @@ MODULE.sub = (function () {
 	return my;
 })();
 
-
 // self invoking anonymous function
 (function () {
 
